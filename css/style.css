@@ -13,6 +13,12 @@ a{
 	text-decoration: none;
 }
 
+:root {
+	--second-font: font-family: 'Roboto', sans-serif;
+	--third-font: font-family: 'Roboto Slab', serif; 
+
+  }
+
 body{
 	      /*     	 font-family: 'Roboto', sans-serif;
 					font-family: 'Roboto Condensed', sans-serif;
@@ -100,7 +106,90 @@ body{
 
 
 /* service part css start */
+
+#service{
+	margin: 55px 0;
+	
+	
+}
+
+#service .container{
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+}
 .service_wraper{
 	text-align: center;
+	padding: 15px;
+	
+}
+
+.service_wraper img{
+	margin-bottom: 25px;
+}
+
+.service_wraper h5{
+	/* font-family: var(--third-font); */
+	font-family: 'Roboto Slab', serif; 
+	font-size: 18px;
+}
+
+.service_wraper p{
+	/* font-family: var(--second-font); */
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 25px;
 }
 /* service part css end */
+
+/* cetagory part css start  */
+.cetagory_heading{
+	margin: 15px 0;
+}
+
+.cetagory_content h5{
+	margin: 15px 0 5px;
+	font-family: 'Roboto Slab', serif; 
+	font-weight: 700;
+	font-size: 18px;
+	color: #4e4e4e;
+}
+
+
+.cetagory_content h6{
+	margin: 15px 0 10px;
+	font-family: 'Roboto Slab', serif; 
+	font-weight: 400;
+	font-size: 13px;
+	color: #a8a8a8;
+}
+
+.cetagory_content p{
+	margin: 15px 0 10px;
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 400;
+	font-size: 14px;
+	color: #5c5c5c;
+}
+/* cetagory part css end  */
+
+
+
+/* quote css part start  */
+#quote{
+	background-color: #efefef;
+	margin-top: 40px;
+}
+
+.quote_content{
+	text-align: center;
+	position: relative;
+	padding: 140px 0 50px;
+}
+
+.quote_content img{
+	position: absolute;
+	top: 70px;
+
+}
+/* quote css part end  */
+
