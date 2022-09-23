@@ -1,0 +1,188 @@
+
+
+/* // X-Small devices (portrait phones, less than 576px)  */
+/* // No media query for `xs` since this is the default in Bootstrap  */
+
+@media (min-width: 320px) and (max-width: 575px) { 
+    .navbar-brand{
+        font-size: 20px;
+    }
+
+    /* banner part start  */
+    .banner_content p{
+        /* display: none; */
+        font-size: 15px;
+    }
+
+    .banner_content h3{
+        font-size: 20px;
+    }
+
+    .banner_overlay{
+        padding: 100px 0;
+    }
+
+    .banner_content a{
+        font-size: 12px;
+    }
+
+    /* <!-- cetagory part  start --> */
+
+    .cetagory_content{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+
+    /* <!-- quote part  start  --> */
+
+    .quote_content img{
+        top: 70px;
+        left: 42%;
+
+    }
+
+    .quote_content p{
+        font-size: 16px;
+
+    }
+
+    /* footer content start  */
+    .footer_contet{
+        margin-bottom: 50px;
+        padding-left: 30px;
+    }
+    
+
+    .footer_contet h5{
+        text-align: center;
+    }
+
+    .footer_copyright{
+        text-align: center;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 575px) and (max-width: 767px) { 
+
+    .navbar-brand{
+        font-size: 25px;
+    }
+
+    /* banner part start  */
+    .banner_content{
+        padding: 0 30px;
+    }
+    .banner_content p{
+        font-size: 20px;
+    }
+
+    .banner_content h3{
+        font-size: 25px;
+    }
+
+    .banner_overlay{
+        padding: 130px 0;
+    }
+
+    .banner_content a{
+        font-size: 13px;
+    }
+
+    /* service part start  */
+    .service_wraper{
+        padding: 0 60px;
+    }
+
+    /* <!-- cetagory part  start --> */
+
+    #cetagory{
+        padding: 0 60px;
+    }
+
+    .cetagory_content{
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+
+    /* <!-- quote part  start  --> */
+
+    .quote_content img{
+        top: 70px;
+        left: 42%;
+
+    }
+
+    .quote_content p{
+        font-size: 18px;
+
+    }
+
+    /* footer content start  */
+    .footer_contet{
+        margin-bottom: 50px;
+        padding: 0 60px;
+    }
+    
+
+    .footer_contet h5{
+        text-align: center;
+    }
+
+    .footer_copyright{
+        text-align: center;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+
+    /* quote part start  */
+    .quote_content img {
+        left: 45%;
+    }
+
+    .footer_contet{
+        margin-bottom: 60px;
+    }
+
+    .footer_copyright{
+        text-align: center;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+    .banner_content a{
+        font-size: 14px;
+    }
+
+     /* quote part start  */
+     .quote_content img {
+        left: 47%;
+    }
+
+    .footer_contet{
+        margin-bottom: 60px;
+    }
+
+    .footer_copyright{
+        text-align: center;
+    }
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) { 
+    .footer_copyright{
+        text-align: center;
+    }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }
